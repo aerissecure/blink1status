@@ -17,8 +17,8 @@ const (
 	dur  = 2 * time.Second
 )
 
-var white = blink1.State{Red: 255, Green: 255, Blue: 255, FadeTime: fade, Duration: dur} // #FF0000
-var black = blink1.State{Red: 0, Green: 0, Blue: 0, FadeTime: fade, Duration: dur}       // #FF0000
+var white = blink1.State{Red: 255, Green: 255, Blue: 255, FadeTime: fade, Duration: dur} // #FFFFFF
+var black = blink1.State{Red: 0, Green: 0, Blue: 0, FadeTime: fade, Duration: dur}       // #000000
 var red = blink1.State{Red: 255, Green: 0, Blue: 0, FadeTime: fade, Duration: dur}       // #FF0000
 var orange = blink1.State{Red: 255, Green: 165, Blue: 0, FadeTime: fade, Duration: dur}  // #FFA500
 var yellow = blink1.State{Red: 255, Green: 255, Blue: 0, FadeTime: fade, Duration: dur}  // #FFFF00
